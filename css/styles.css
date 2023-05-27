@@ -691,21 +691,21 @@ img {
 }
 
 .modal-form-title {
-
+text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: var(--title-color);
   margin-bottom: 16px;
 }
 
 .modal-form-label {
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+  display: block;
+  color:var(--background-icon-color: #8e8f99;)
 }
 .modal-form-input {
   width: 100%;
@@ -727,11 +727,11 @@ img {
   border-radius: 4px;
 }
 
-/* 
-.contakt-form-button-wrapper {
 
+.contact-form-input-wrapper {
+  margin-bottom: 8px;
   
-} */
+}
 .contakt-form-btn {
   margin-left: auto;
   margin-right: auto;
