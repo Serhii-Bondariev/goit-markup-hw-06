@@ -691,15 +691,14 @@ img {
 }
 
 .modal-form-title {
-  flex-wrap: wrap;
-  font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
+  margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -830,14 +829,21 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
+  background-color: var(--pressed-btn);
 }
 .footer-button-icon {
   width: 24px;
   height: 24px;
   margin-left: 16px;
 }
-/* ========================================= DELETE ========================== */
-/* delete-me-after */
+/* =================================== DELETE ========================== */
+
 .delete-me-after {
   padding-top: 1px;
   margin-right: auto;
