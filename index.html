@@ -506,6 +506,29 @@
           </ul>
         </div>
       </div>
+      <!-- ===========FOOTER-MAIL-FORM=========== -->
+      <div class="footer-mail-form-container">
+        <div class="footer-form-container">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscription-form">
+            <label class="footer-form-label" for="email-input">
+              <input
+                class="footer-form-input"
+                type="email"
+                id="email-input"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-subscribe-button" type="submit">
+              <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
     </footer>
     <!-- MODAL_WINDOW -->
 
@@ -520,51 +543,6 @@
 
         <div class="modal-title">
           <p class="modal-form-title">Leave your contacts and we will call you back</p>
-
-          <form class="modal-form">
-            <label class="modal-form-label">
-              Name
-              <input
-                class="modal-form-input"
-                type="text"
-                name="user_name"
-                placeholder=""
-                required
-                pattern="[a-zA-zа-яА-ЯіІїЇєЄ]+"
-              />
-            </label>
-            <label class="modal-form-label">
-              Phone
-              <input
-                class="modal-form-input"
-                type="tel"
-                placeholder=""
-                required
-                name="user_phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
-              />
-            </label>
-            <label class="modal-form-label">
-              Email
-              <input class="modal-form-input" type="email" required placeholder="" name="Email" />
-            </label>
-            <label class="modal-form-label">
-              Comment
-              <textarea
-                class="modal-form-text-area"
-                name="Comment"
-                rows="5"
-                placeholder="Text input"
-              ></textarea>
-            </label>
-            <label class="modal-form-label">
-              <input type="checkbox" name="user_policy" value="reading" />
-              I accept the terms and conditions of the Privacy Policy
-            </label>
-
-            <button type="submit" class="contakt-form-btn">Send</button>
-          </form>
         </div>
       </div>
     </div>
