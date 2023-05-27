@@ -705,17 +705,31 @@ text-align: center;
   line-height: 1.17;
   letter-spacing: 0.04em;
   display: block;
-  color:var(--background-icon-color: #8e8f99;)
+  margin-bottom: 4px;
+  color:var(--background-icon-color);
 }
+
+.modal-form-container{
+position: relative;
+}
+
 .modal-form-input {
   width: 100%;
   margin-top: 4px;
   height: 40px;
   padding-left: 38px;
   box-sizing: border-box;
+  background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.modal-form-input:hover,
+.modal-form-input:focus{
+  border-color: #4D5AE5;
+}
+
 .modal-form-text-area {
   resize: none;
   width: 100%;
@@ -762,16 +776,27 @@ text-align: center;
   height: 24px;
   background-color: #31d0aa;
 }
+
 .modal-input-icon {
   position: absolute;
+  width: 18px;
+  height: 24px;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   display: block;
-  width: 18px;
-  height: 24px;
+  
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* ===============FUTER-SUBSCRIBE-FOFM================= */
+.modal-input-icon:hover,
+.modal-input-icon:focus{
+  fill: #4D5AE5;
+}
+.modal-contakt-input-icon:hover,
+.modal-contakt-input-icon:focus{
+  fill: #4D5AE5;
+}
+/* ===============FOOTER-SUBSCRIBE-FOFM================= */
 .footer-mail-form-container {
   margin-bottom: 16px;
   
