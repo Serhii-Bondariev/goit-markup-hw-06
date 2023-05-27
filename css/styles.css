@@ -828,7 +828,11 @@ position: relative;
 }
 
 .modal-input-chekbox{
-  
+
+}
+
+.link-chekbox{
+  color: var(--primary-btn);
 }
 
 .modal-input-icon:hover,
