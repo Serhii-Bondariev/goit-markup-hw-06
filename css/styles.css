@@ -813,7 +813,7 @@ position: relative;
   display: block;
   width: 18px;
   height: 24px;
-  background-color: #31d0aa;
+  
 }
 
 .modal-input-icon {
@@ -832,7 +832,7 @@ position: relative;
 
 } */
 
-.link-chekbox{
+.checkbox-privacy-policy-link{
   color: var(--primary-btn);
 }
 .checkbox-privacy-policy-link{
@@ -849,7 +849,7 @@ position: relative;
 }
 .contakt-form-btn:hover,
 .contakt-form-btn:focus {
-    background-color: var(--pressed-state);
+    background-color: var(--pressed-btn);
 }
 .modal-chekbox-btn:checked + .modal-label-chekbox .modal-user-privacy {
   background-color: var(--pressed-btn);
