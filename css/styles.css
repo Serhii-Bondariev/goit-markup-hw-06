@@ -816,10 +816,10 @@ img {
 
   fill: #4D5AE5;
 }
-.modal-contakt-input-icon:hover,
-.modal-contakt-input-icon:focus {
-  fill: #4d5ae5;
+.modal-form-input:focus + .modal-input-icon {
+  fill: var(--primary-btn);
 }
+
 .contakt-form-btn:hover,
 .contakt-form-btn:focus {
   background-color: var(--pressed-btn);
