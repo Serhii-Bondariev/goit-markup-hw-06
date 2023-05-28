@@ -45,6 +45,7 @@ img {
   --pressed-btn: #404bbf;
   --title-color: #2e2f42;
   --descr-color: #434455;
+  --checkbox-icon: #ffffff;
   --background-icon-color: #8e8f99;
   --additional-text-color: #434455;
   --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -835,7 +836,7 @@ position: relative;
   color: var(--primary-btn);
 }
 .checkbox-privacy-policy-link{
-  
+
 }
 
 .modal-input-icon:hover,
@@ -846,7 +847,16 @@ position: relative;
 .modal-contakt-input-icon:focus{
   fill: #4D5AE5;
 }
-
+.contakt-form-btn:hover,
+.contakt-form-btn:focus {
+    background-color: var(--pressed-state);
+}
+.modal-chekbox-btn:checked + .modal-label-chekbox .modal-user-privacy {
+  background-color: var(--pressed-btn);
+  fill: var(--checkbox-icon);
+  border: none;
+  border-color: var(--pressed-btn);
+}
 /* .modal-user-privacy{
 
 } */
