@@ -836,8 +836,9 @@ img {
 appearance: none;
 position: absolute;
 }
+
 .modal-checkbox-btn-input:checked + .modal-checkbox-label .modal-privacy-checkbox-span{
-  opacity: 1;
+ 
   background-color: var(--pressed-btn);
   border: none;
   fill: var(--background-white);
