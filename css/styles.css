@@ -837,6 +837,7 @@ appearance: none;
 position: absolute;
 }
 .modal-chekbox-btn-input:checked + .modal-input-chekbox > .modal-privasy-chekbox-icon{
+ 
   background-color: var(--pressed-btn);
   border: none;
   fill: var(--background-white);
@@ -868,7 +869,7 @@ position: absolute;
 .modal-input-chekbox {
 }
 .modal-privasy-chekbox-icon {
-  opacity: 0;
+  
 }
 .modal-prsvacy-link-checkbox {
   color: var(--primary-btn);
