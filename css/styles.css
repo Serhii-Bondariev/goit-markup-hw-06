@@ -836,8 +836,8 @@ img {
 appearance: none;
 position: absolute;
 }
-.modal-chekbox-btn-input:checked + .modal-input-chekbox > .modal-privasy-chekbox-icon{
- 
+.modal-checkbox-btn-input:checked + .modal-checkbox-label .modal-privacy-checkbox-span{
+  opacity: 1;
   background-color: var(--pressed-btn);
   border: none;
   fill: var(--background-white);
