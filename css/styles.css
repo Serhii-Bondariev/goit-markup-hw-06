@@ -862,9 +862,13 @@ position: absolute;
   fill: transparent;
 
 }
+
+
+
 .modal-input-chekbox {
 }
 .modal-privasy-chekbox-icon {
+  opacity: 0;
 }
 .modal-prsvacy-link-checkbox {
   color: var(--primary-btn);
