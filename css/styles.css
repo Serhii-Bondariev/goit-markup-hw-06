@@ -837,9 +837,11 @@ position: absolute;
 }
 .modal-chekbox-btn-input:checked + .modal-input-chekbox > .modal-privasy-chekbox-icon{
   background-color: var(--pressed-btn);
-    fill: var(--background-white);
-    border: none;
-    border-color: var(--pressed-btn);
+  border: none;
+  fill: var(--background-white);
+  border-color: var(--pressed-btn);
+    
+    
   
 }
 .modal-chekbox-label {
@@ -848,14 +850,24 @@ position: absolute;
     letter-spacing: 0.04em;
     color: var(--background-icon-color)
 }
-/* .modal-privacy-checkbox-span {
+.modal-privacy-checkbox-span {
+  width: 16px; 
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  fill: transparent;
+
 }
 .modal-input-chekbox {
 }
 .modal-privasy-chekbox-icon {
 }
 .modal-prsvacy-link-checkbox {
-} */
+  color: var(--primary-btn);
+}
 
 /* ===============FOOTER-SUBSCRIBE-FOFM================= */
 .footer-mail-form-container {
