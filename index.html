@@ -532,7 +532,7 @@
     </footer>
     <!-- MODAL_WINDOW -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -615,21 +615,23 @@
          <!-- ==================CHECKBOX============== -->
          <div class="modal-chekbox">   
           <input 
-            class=" modal-chekbox-btn visually-hidden " 
+            class="modal-chekbox-btn-input" 
             id="user-privacy" 
             type="checkbox" 
             name="user-privacy" 
             value="true"
             required
              />
-             <label class="modal-label-chekbox" for="user-privacy" >
-              <span class="modal-user-privacy">
-                <svg class="modal-input-chekbox" width="10" height="8" >
-                <use class="modan-user-privasy-chek-icon" href="./images/icons.svg#icon-Property"></use>
+             <label class="modal-chekbox-label" for="user-privacy" >
+              <span class="modal-privacy-checkbox-span">
+                <svg class="modal-input-chekbox"
+                 width="10" 
+                 height="8" >
+                <use class="modal-privasy-chekbox-icon" 
+                href="./images/icons.svg#icon-Property"></use>
               </svg>
             </span>  I accept the terms and conditions of the
-          
-            <a href="" class="checkbox-privacy-policy-link">Privacy Policy</a></label>
+            <a href="" class="modal-prsvacy-link-checkbox">Privacy Policy</a></label>
         </div>
     <!-- BUTTON -->
           <button type="submit" class="contakt-form-btn">Send</button>
