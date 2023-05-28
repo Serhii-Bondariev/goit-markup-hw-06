@@ -834,6 +834,9 @@ position: relative;
 .link-chekbox{
   color: var(--primary-btn);
 }
+.checkbox-privacy-policy-link{
+  
+}
 
 .modal-input-icon:hover,
 .modal-input-icon:focus{
