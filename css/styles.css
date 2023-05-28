@@ -837,7 +837,7 @@ appearance: none;
 position: absolute;
 }
 
-.modal-checkbox-btn-input:checked + .modal-checkbox-label .modal-privacy-checkbox-span{
+.modal-chekbox-btn-input:checked + .modal-chekbox-label .modal-privacy-checkbox-span{
  
   background-color: var(--pressed-btn);
   border: none;
