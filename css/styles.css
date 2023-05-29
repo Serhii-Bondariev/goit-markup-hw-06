@@ -829,7 +829,9 @@ img {
 }
 
 /* ----------------CHECKBOX----------------------------- */
-
+.modal-chekbox{
+  margin-bottom: 24px; 
+}
 .modal-chekbox-btn-input {
   appearance: none;
   position: absolute;
