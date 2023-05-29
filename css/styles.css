@@ -699,6 +699,10 @@ img {
   margin-bottom: 16px;
 }
 
+.contact-form-input-wrapper{
+  margin-bottom: 8px;
+}
+
 .modal-form-label {
   display: block;
   font-size: 12px;
