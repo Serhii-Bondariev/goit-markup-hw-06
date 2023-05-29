@@ -802,7 +802,9 @@ img {
   width: 18px;
   height: 24px;
 }
-
+.contact-form-input-comment{
+  margin-bottom: 16px
+}
 .modal-input-icon {
   position: absolute;
   width: 18px;
