@@ -686,8 +686,6 @@ img {
 .modal-form {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
-
   gap: 8px;
 }
 
@@ -716,20 +714,22 @@ img {
 
 .modal-form-input {
   width: 100%;
-  margin-top: 4px;
   height: 40px;
   padding-left: 38px;
-  box-sizing: border-box;
-  background-color: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
   outline: transparent;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:hover,
 .modal-form-input:focus {
   border-color: #4d5ae5;
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .modal-form-text-area {
@@ -739,7 +739,6 @@ img {
   height: 120px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-top: 4px;
   padding: 8px 16px;
   color: rgba(46, 47, 66, 0.4);
   box-sizing: border-box;
@@ -755,9 +754,6 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-chekbox {
-  margin-bottom: 24px;
-}
 .modal-user-privacy {
   width: 16px;
   height: 16px;
@@ -768,27 +764,29 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.contact-form-input-wrapper {
-  margin-bottom: 8px;
-}
+
 .contakt-form-btn {
-  gap: 10px;
+  
   border: none;
+  display: block;
+  cursor: pointer;
   margin-top: 24px;
-  min-height: 56px;
-  min-width: 169px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  min-width: 169px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
   border-radius: 4px;
   letter-spacing: 0.04em;
-  background-color: var(--primary-btn);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto', sans-serif;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--primary-btn);
 }
+
 .contakt-form-submit {
   display: flex;
   justify-content: center;
@@ -813,8 +811,7 @@ img {
 }
 .modal-input-icon:hover,
 .modal-input-icon:focus {
-
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 .modal-form-input:focus + .modal-input-icon {
   fill: var(--primary-btn);
@@ -824,59 +821,44 @@ img {
 .contakt-form-btn:focus {
   background-color: var(--pressed-btn);
 }
-.contact-form-input-comment {
-  margin-bottom: 16px;
-}
+
 /* ----------------CHECKBOX----------------------------- */
 
-.modal-chekbox {
-   margin-bottom: 24px;
-}
-.modal-chekbox-btn-input{
-appearance: none;
-position: absolute;
+.modal-chekbox-btn-input {
+  appearance: none;
+  position: absolute;
 }
 
-.modal-chekbox-btn-input:checked + .modal-chekbox-label .modal-privacy-checkbox-span{
- 
+.modal-chekbox-btn-input:checked + .modal-chekbox-label .modal-privacy-checkbox-span {
   background-color: var(--pressed-btn);
   border: none;
   fill: var(--background-white);
   border-color: var(--pressed-btn);
-    
-    
-  
 }
 .modal-chekbox-label {
   font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--background-icon-color)
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--background-icon-color);
 }
 .modal-privacy-checkbox-span {
-  width: 16px; 
+  width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 2px;
   display: inline-flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   fill: transparent;
-
+  margin-right: 8px;
 }
-
-
-
-.modal-input-chekbox {
-}
-.modal-privasy-chekbox-icon {
-} 
 
 .modal-prsvacy-link-checkbox {
   color: var(--primary-btn);
 }
 
-/* ===============FOOTER-SUBSCRIBE-FOFM================= */
+/* FOOTER-SUBSCRIBE-FOFM */
+
 .footer-mail-form-container {
   margin-bottom: 16px;
 }
@@ -898,7 +880,6 @@ position: absolute;
   margin-right: 24px;
 }
 .footer-form-input {
-  flex-direction: row-reverse;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -911,9 +892,11 @@ position: absolute;
   border-radius: 4px;
   color: #ffffff;
 }
+
 .form-input::placeholder {
   color: #ffffff;
 }
+
 .footer-subscribe-button {
   flex-direction: row-reverse;
   min-width: 165px;
@@ -945,16 +928,17 @@ position: absolute;
   height: 24px;
   margin-left: 16px;
 }
-/* =================================== DELETE ========================== */
-
-.delete-me-after {
-  padding-top: 1px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .contakt-form-btn :hover,
 .contakt-form-btn :focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
+/* =========================== DELETE ========================== */
+
+.delete-me-after {
+  padding-top: 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
