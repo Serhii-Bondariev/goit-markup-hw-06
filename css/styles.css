@@ -4,7 +4,9 @@ body {
   font-size: 16px;
   background-color: #ffffff;
 }
+
 /* defolts-settings */
+
 .list {
   list-style: none;
 }
@@ -686,7 +688,7 @@ img {
 .modal-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  
 }
 
 .modal-form-title {
