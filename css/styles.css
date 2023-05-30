@@ -638,7 +638,7 @@ img {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px
+  padding: 72px 24px 24px 24px;
 
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -733,26 +733,26 @@ img {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-form-input:hover,
 .modal-form-input:focus {
-  border-color:
-  fill: #4d5ae5;
+  border-color:var(--primary-btn);
+  fill:var(--primary-btn);
 }
 
 .modal-input-icon {
   position: absolute;
-  width: 18px;
-  height: 24px;
-  top: 50%;
   left: 16px;
+  top: 50%;
   transform: translateY(-50%);
-  display: block;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 .modal-input-icon:hover,
 .modal-input-icon:focus {
-  fill: #4d5ae5;
+  fill:var(--primary-btn);
 }
+
 .modal-form-input:focus + .modal-input-icon {
   fill: var(--primary-btn);
 }
@@ -766,8 +766,8 @@ img {
 .modal-form-text-area {
   resize: none;
   width: 100%;
-  font-size: 12px;
   height: 120px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   padding: 8px 16px;
@@ -782,7 +782,7 @@ img {
 
 .modal-form-text-area:hover,
 .modal-form-text-area:focus {
-  border-color: #4d5ae5;
+  border-color:var(--primary-btn);
 }
 
 /* ----------------CHECKBOX----------------------------- */
@@ -823,7 +823,9 @@ img {
 .modal-prsvacy-link-checkbox {
   color: var(--primary-btn);
 }
+/* .modal-input-chekbox{
 
+} */
 .contakt-form-btn {
   border: none;
   display: block;
