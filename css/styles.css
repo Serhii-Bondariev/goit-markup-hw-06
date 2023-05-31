@@ -682,13 +682,6 @@ img {
   pointer-events: none;
 }
 /* ==================== MODAL-FORM ==================== */
-
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 .modal-form-title {
   text-align: center;
   font-weight: 500;
@@ -697,6 +690,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin-bottom: 16px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .contact-form-input-wrapper{
@@ -883,10 +881,9 @@ img {
 }
 .footer-subscription-form {
   display: flex;
+  gap: 24px;
 }
-.footer-form-label {
-  margin-right: 24px;
-}
+
 .footer-form-input {
   width: 264px;
   height: 40px;
