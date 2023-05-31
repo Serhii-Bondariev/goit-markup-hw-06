@@ -555,6 +555,7 @@
                 placeholder=""
                 required
                 pattern="[a-zA-zа-яА-ЯіІїЇєЄ]+"
+                title="User name"
               />
               <svg class="modal-input-icon"
                aria-label="icon user"
@@ -575,7 +576,7 @@
                 id="user-phone"
                 name="user-phone"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
+                title="Phone format xxx-xxx-xx-xx"
               />
               <svg class="modal-input-icon"
                aria-label="icon user"
@@ -589,7 +590,11 @@
           <div class="contact-form-input-wrapper">
             <label class="modal-form-label" for="user-email"> Email</label>
             <div class="modal-form-container">
-              <input class="modal-form-input" type="email" id="user-email" name="user-email" />
+              <input class="modal-form-input"
+               type="email" 
+               id="user-email" 
+               name="user-email"
+               title="User email" />
               <svg class="modal-input-icon" 
               aria-label="icon_user" 
               width="18" 
@@ -607,6 +612,8 @@
               name="user-comment"
               rows="5"
               placeholder="Text input"
+              title="Leave your comment"
+
             ></textarea>
           </div>
           <!-- ==================CHECKBOX============== -->
