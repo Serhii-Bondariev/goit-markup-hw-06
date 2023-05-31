@@ -637,7 +637,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  min-height: 584px;
+ 
   padding: 72px 24px 24px 24px;
 
   background: #fcfcfc;
@@ -691,19 +691,11 @@ img {
   color: var(--title-color);
   margin-bottom: 16px;
 }
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  
-}
 
 .modal-form {
-  display: flex;
   flex-direction: column;
   gap: 8px;
-  display: flex;
   padding: 1px 0px 0px;
-
 }
 
 .contact-form-input-wrapper {
@@ -717,7 +709,6 @@ img {
   color: var(--background-icon-color);
   display: block;
   margin-bottom: 4px;
-  
 }
 
 .modal-form-container {
@@ -741,8 +732,8 @@ img {
 
 .modal-form-input:hover,
 .modal-form-input:focus {
-  border-color:var(--primary-btn);
-  fill:var(--primary-btn);
+  border-color: var(--primary-btn);
+  fill: var(--primary-btn);
 }
 
 .modal-input-icon {
@@ -750,12 +741,12 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-icon:hover,
 .modal-input-icon:focus {
-  fill:var(--primary-btn);
+  fill: var(--primary-btn);
 }
 
 .modal-form-input:focus + .modal-input-icon {
@@ -765,8 +756,6 @@ img {
 .contact-form-input-comment {
   margin-bottom: 16px;
 }
-
-
 
 .modal-form-text-area {
   resize: none;
@@ -787,7 +776,7 @@ img {
 
 .modal-form-text-area:hover,
 .modal-form-text-area:focus {
-  border-color:var(--primary-btn);
+  border-color: var(--primary-btn);
 }
 
 /* ----------------CHECKBOX----------------------------- */
@@ -835,7 +824,7 @@ img {
   border: none;
   display: block;
   cursor: pointer;
-  
+
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
